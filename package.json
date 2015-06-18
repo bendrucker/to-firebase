@@ -2,10 +2,9 @@
   "name": "to-firebase",
   "version": "1.0.0",
   "description": "Transform data into its Firebase representation, including nested objects",
-  "main": "./src",
+  "main": "index.js",
   "scripts": {
-    "test": "babel-tape-runner test/*.js",
-    "build": "babel ./src -d ./lib --optional runtime"
+    "test": "standard && tape test.js"
   },
   "repository": {
     "type": "git",
@@ -24,14 +23,16 @@
   },
   "homepage": "https://github.com/bendrucker/to-firebase#readme",
   "devDependencies": {
-    "babel": "~5.1.13",
-    "babel-tape-runner": "~1.1.0",
+    "standard": "~4.3.1",
     "tape": "~4.0.0"
   },
   "dependencies": {
-    "babel-runtime": "~5.1.13",
     "is-object": "~1.0.1",
     "object-to-firebase": "~1.0.0",
     "value-to-firebase": "~1.0.1"
-  }
+  },
+  "files": [
+    "index.js",
+    "readme.md"
+  ]
 }

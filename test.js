@@ -1,9 +1,9 @@
 'use strict'
 
-import test from 'tape'
-import toFirebase from '../'
+var test = require('tape')
+var toFirebase = require('./')
 
-test((t) => {
+test(function (t) {
   t.equal(toFirebase(1), 1, 'value')
   t.equal(toFirebase(null), null, 'null')
   t.deepEqual(toFirebase({
