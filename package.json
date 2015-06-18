@@ -1,6 +1,6 @@
 {
   "name": "to-firebase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform data into its Firebase representation, including nested objects",
   "main": "index.js",
   "scripts": {
