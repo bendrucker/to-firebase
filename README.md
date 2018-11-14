@@ -1,4 +1,4 @@
-# to-firebase [![Build Status](https://travis-ci.org/bendrucker/to-firebase.svg?branch=master)](https://travis-ci.org/bendrucker/to-firebase)
+# to-firebase [![Build Status](https://travis-ci.org/bendrucker/to-firebase.svg?branch=master)](https://travis-ci.org/bendrucker/to-firebase) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/to-firebase.svg)](https://greenkeeper.io/)
 
 > Transform data into its Firebase representation, including nested objects
 
